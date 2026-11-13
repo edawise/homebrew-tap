@@ -5,12 +5,12 @@ class DeccyCli < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/edawise/deccy-cli/releases/download/v0.2.1/deccy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "e3b7a5607e03f276fb963540ae3ec1584b7dd6856b0eed48f7d08f08c1ed8771"
+      url "https://github.com/edawise/deccy-cli/releases/download/v0.2.2/deccy-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "9021846cb0ad2f47e172cc2348da1eb61c516ff5fd2848dcf080495fd7cd9e2a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/edawise/deccy-cli/releases/download/v0.2.1/deccy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a63dc22ab28083fe278b0cf5f7f9615777bf2648adde48daf62e6655f21ad02c"
+      url "https://github.com/edawise/deccy-cli/releases/download/v0.2.2/deccy-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "597b51603ac44af0e315ff64239a4db5f80c36bef220340e3732635c53e20f7b"
     end
   end
 
